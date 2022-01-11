@@ -1,0 +1,15 @@
+﻿<Window x:Class="NetCheck.Dialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NetCheck"
+        mc:Ignorable="d"
+        Title="Dialog" Height="180" Width="260" ResizeMode="NoResize" Topmost="True" ShowInTaskbar="False" WindowStartupLocation="CenterScreen" SizeToContent="Manual" Loaded="Window_Loaded">
+    <Grid>
+        <TextBox x:Name="adressTb" HorizontalAlignment="Center" Margin="0,50,0,0" TextWrapping="NoWrap" Text="" VerticalAlignment="Top" Width="230" VerticalContentAlignment="Center" Height="29" FontSize="14" FontFamily="Corbel"/>
+        <Label x:Name="MessageLabel" Content="Введите адрес" HorizontalAlignment="Center" Margin="10,10,0,0" VerticalAlignment="Top" FontFamily="Corbel" FontSize="16" FontWeight="Bold"/>
+        <Button x:Name="okBtn" Content="OK" HorizontalAlignment="Center" Margin="0,100,0,10" VerticalAlignment="Top" Width="80" IsDefault="True" Click="okBtn_Click" Height="27"/>
+
+    </Grid>
+</Window>
