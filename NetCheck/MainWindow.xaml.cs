@@ -319,6 +319,5 @@ namespace NetCheck
             Settings.Default.TurboCheck = (bool)turboCB.IsChecked;
             Settings.Default.Save();
         }
-        
     }
 }
